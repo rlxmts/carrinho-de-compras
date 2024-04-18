@@ -1,4 +1,5 @@
-let totalGeral = 0;
+let totalGeral;
+limpar();
 
 function adicionar() {
     let quantidade = document.getElementById('quantidade').value;
